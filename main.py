@@ -6,8 +6,8 @@ from game1 import cassino
 from os import system
 #---------------------#
 
-print('''╔════════════════════════════════════════╗
-┃  OLÁ, SEJA BEM VINDO AO MENU DE GAMES ʘ‿ʘ ┃   
+print('''╔═════════════════════════════════════════╗
+┃  OLÁ, SEJA BEM VINDO AO MENU DE GAMES ʘ‿ʘ  ┃   
 ╠══════════════════════════════════════════╣
 ┃[•]SUAS OPÇÕES:                               
 ║                          ㅤㅤ                                               ㅤ║
