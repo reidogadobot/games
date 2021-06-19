@@ -6,6 +6,8 @@ from game1 import cassino
 from os import system
 #---------------------#
 
+system('clear')
+
 print('''╔════════════════════════════════════════════╗
 ┃  OLÁ, SEJA BEM VINDO AO MENU DE GAMES ʘ‿ʘ  ┃   
 ╠════════════════════════════════════════════╣
@@ -14,7 +16,9 @@ print('''╔══════════════════════�
 ┃[ 1 ] CASSINO 🎰               ㅤㅤㅤㅤ            
 ║(GIRE UM CAÇA NÍQUEIS)  ㅤ            
 ┃[ 2 ] PPT 🎮                   ㅤㅤㅤㅤㅤㅤ               
-║(PEDRA, PAPEL E TESOURA)                    
+║(PEDRA, PAPEL E TESOURA)  
+┃[ 3 ] AMONG US  
+║(UM MINI AMONGUS)                
 ╚════════════════════════════════════════════╝''')
 usr = int(input('DIGITE A SUA OPÇÃO: '))
 
@@ -27,8 +31,8 @@ if usr == 2: # ppt
   sleep(2)
   ppt()
 if usr == 3:
-	print('INICIANDO...')
-	sleep(2)
-	amongus()
+  print('INICIANDO...')
+  sleep(2)
+  amongus()
 	
 print('▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄')
