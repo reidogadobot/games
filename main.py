@@ -26,7 +26,7 @@ if usr == 2: # ppt
   print('INICIANDO...')
   sleep(2)
   ppt()
-If usr == 3:
+if usr == 3:
 	print('INICIANDO...')
 	sleep(2)
 	amongus()
